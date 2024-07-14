@@ -16,7 +16,7 @@ const Footer = () => {
             <img src={`${process.env.PUBLIC_URL}/assets/icons/facebook-ic.svg`} alt="logo"/>
             <img src={`${process.env.PUBLIC_URL}/assets/icons/twitter-ic.svg`} alt="logo"/>
             </div>
-            <p>2015-2022 Taxaide Technologies Limited. All rights reserved</p>
+            <p> {new Date().getFullYear()} Taxaide Technologies Limited. All rights reserved</p>
           
         </div>
         <div className="footer-about-us">
